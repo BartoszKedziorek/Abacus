@@ -1,4 +1,4 @@
-# Abacus - The simple calculator
+# Abacus - the simple desktop calculator
 
 ## Technologies
 * C/C++14
@@ -9,6 +9,8 @@
 
 ## Project State
 The Abacus is almost finished, but it has some bugs. Currentyl, the project is suspended. 
+
+![klk](https://user-images.githubusercontent.com/104023013/172051130-fc8c1b87-4842-4850-956c-5022b1ec73a8.png)
 
 ## Application setup
 1.Download the project as zip file<br>
@@ -31,6 +33,9 @@ git init
 git clone https://github.com/MichaelMuzan/Abacus
 ```
 Run "Kalkulator.sln" file.
+
+## Inspirations
+The ECS and TextureManager implementations is based on (https://www.youtube.com/watch?v=XsvI8Sng6dk) from Carl Birch's channel named "Let's make games". Code in the Stos.h file is inspired on book "Algorytmy, struktury danych i techniki programowania" by Piotr Wróblewski. 
 
 ## License and copyrights
 Portions of this software are copyright © 2.9.1.0 The FreeType Project (www.freetype.org).  All rights reserved.
