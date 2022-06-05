@@ -14,9 +14,9 @@ The Abacus is almost finished, but it has some bugs. Currentyl, the project is s
 
 ## Application setup
 1.Download the project as zip file<br>
-2.Extract the zip file
-3.Go to the folder extracted from the w Abacus-master.zip
-4.Extract Release.zip
+2.Extract the zip file<br>
+3.Go to the folder extracted from the w Abacus-master.zip<br>
+4.Extract Release.zip<br>
 5.Go to the folder extracted from Release.zip<br>
 6.Run Kalkulator.exe
 
