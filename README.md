@@ -18,7 +18,8 @@ The Abacus is almost finished, but it has some bugs. Currentyl, the project is s
 3.Go to the folder extracted from the w Abacus-master.zip<br>
 4.Extract Release.zip<br>
 5.Go to the folder extracted from Release.zip<br>
-6.Run Kalkulator.exe
+6.Run Kalkulator.exe<br>
+Release verison has been compiled on Windows OS, so game should be run on it. 
 
 ## Project setup
 In order to work on this project you'll need Visual Studio Community 2019 - 16.11.13 or newer (it also works on VSC 2022) and git installed. From your command line:
