@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Appearance.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\History.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Position_Comp.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Stos.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tag.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TestComp.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Typing_space.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\begin_code.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\close_code.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_assert.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_atomic.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_audio.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_bits.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_blendmode.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_clipboard.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_android.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_iphoneos.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_macosx.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_minimal.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_pandora.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_psp.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_windows.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_winrt.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_config_wiz.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_copying.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_cpuinfo.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_egl.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_endian.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_error.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_events.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_filesystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_gamecontroller.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_gesture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_haptic.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_hidapi.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_hints.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_joystick.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_keyboard.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_keycode.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_loadso.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_locale.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_log.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_main.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_messagebox.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_metal.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_misc.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_mouse.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_mutex.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_name.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengl.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengl_glext.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengles.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengles2.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengles2_gl2.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengles2_gl2ext.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengles2_gl2platform.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_opengles2_khrplatform.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_pixels.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_platform.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_power.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_quit.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_rect.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_render.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_revision.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_rwops.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_scancode.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_sensor.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_shape.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_stdinc.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_surface.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_system.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_syswm.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_assert.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_common.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_compare.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_crc32.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_font.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_fuzzer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_harness.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_images.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_log.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_md5.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_memory.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_test_random.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_thread.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_timer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_touch.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_types.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_version.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_video.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2-2.0.20\include\SDL_vulkan.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2_image-2.0.5\include\SDL_image.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2_ttf-2.0.15\include\SDL_ttf.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kalkulator.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Grafiki\Ikonka.ico">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Backspace.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Backspacea.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\C.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Ca.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Dzielenie.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Dzieleniea.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Ikonka.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Kropka.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Kropkaa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Minus.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Minusa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Mnozenie.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Mnozeniea.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Mod.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Moda.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Pierwiastek.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Pierwiasteka.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Plus.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Plusa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Podstawa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Podstawaa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Potega.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Potegaa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Rowna_sie.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Grafiki\Rowna_siea.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="SDL2_ttf.dll" />
+    <None Include="zlib1.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="libfreetype-6.dll" />
+    <None Include="Kalkulator.aps" />
+    <None Include="SDL2_image-2.0.5\lib\x64\SDL2_image.dll" />
+    <None Include="SDL2_image-2.0.5\lib\x64\libtiff-5.dll" />
+    <None Include="SDL2_image-2.0.5\lib\x64\libpng16-16.dll" />
+    <None Include="SDL2_image-2.0.5\lib\x64\zlib1.dll" />
+    <None Include="SDL2_image-2.0.5\lib\x64\libjpeg-9.dll" />
+    <None Include="SDL2_image-2.0.5\lib\x64\libwebp-7.dll" />
+    <None Include="SDL2_ttf-2.0.15\lib\x64\libfreetype-6.dll" />
+    <None Include="SDL2_ttf-2.0.15\lib\x64\SDL2_ttf.dll" />
+    <None Include="SDL2_ttf-2.0.15\lib\x64\zlib1.dll" />
+    <None Include="Grafiki\Backspace.xcf" />
+    <None Include="Grafiki\Backspacea.xcf" />
+    <None Include="Grafiki\C.xcf" />
+    <None Include="Grafiki\Ca.xcf" />
+    <None Include="Grafiki\Dzielenie.xcf" />
+    <None Include="Grafiki\Dzieleniea.xcf" />
+    <None Include="Grafiki\Ikonka.xcf" />
+    <None Include="Grafiki\Kropka.xcf" />
+    <None Include="Grafiki\Kropkaa.xcf" />
+    <None Include="Grafiki\Minus.xcf" />
+    <None Include="Grafiki\Minusa.xcf" />
+    <None Include="Grafiki\Mnozenie.xcf" />
+    <None Include="Grafiki\Mnozeniea.xcf" />
+    <None Include="Grafiki\Mod.xcf" />
+    <None Include="Grafiki\Moda.xcf" />
+    <None Include="Grafiki\Pierwiastek.xcf" />
+    <None Include="Grafiki\Pierwiasteka.xcf" />
+    <None Include="Grafiki\Plus.xcf" />
+    <None Include="Grafiki\Plusa.xcf" />
+    <None Include="Grafiki\Podstawa.xcf" />
+    <None Include="Grafiki\Podstawaa.xcf" />
+    <None Include="Grafiki\Potega.xcf" />
+    <None Include="Grafiki\Potegaa.xcf" />
+    <None Include="Grafiki\Rowna_sie.xcf" />
+    <None Include="Grafiki\Rowna_siea.xcf" />
+    <None Include="SDL2-2.0.20\lib\x64\SDL2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="undefined.medium.ttf" />
+    <Font Include="couri.ttf" />
+    <Font Include="courbi.ttf" />
+    <Font Include="courbd.ttf" />
+    <Font Include="cour.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Kalkulator.log" />
+    <Text Include="SDL2_image-2.0.5\lib\x64\LICENSE.jpeg.txt" />
+    <Text Include="SDL2_image-2.0.5\lib\x64\LICENSE.png.txt" />
+    <Text Include="SDL2_image-2.0.5\lib\x64\LICENSE.tiff.txt" />
+    <Text Include="SDL2_image-2.0.5\lib\x64\LICENSE.webp.txt" />
+    <Text Include="SDL2_image-2.0.5\lib\x64\LICENSE.zlib.txt" />
+    <Text Include="SDL2_ttf-2.0.15\lib\x64\LICENSE.freetype.txt" />
+    <Text Include="SDL2_ttf-2.0.15\lib\x64\LICENSE.zlib.txt" />
+    <Text Include="SDL2_image-2.0.5\CHANGES.txt" />
+    <Text Include="SDL2_image-2.0.5\COPYING.txt" />
+    <Text Include="SDL2_image-2.0.5\README.txt" />
+    <Text Include="SDL2-2.0.20\BUGS.txt" />
+    <Text Include="SDL2-2.0.20\COPYING.txt" />
+    <Text Include="SDL2-2.0.20\README.txt" />
+    <Text Include="SDL2-2.0.20\README-SDL.txt" />
+    <Text Include="SDL2-2.0.20\WhatsNew.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL2_image-2.0.5\lib\x64\SDL2_image.lib" />
+    <Library Include="SDL2_ttf-2.0.15\lib\x64\SDL2_ttf.lib" />
+    <Library Include="SDL2-2.0.20\lib\x64\SDL2.lib" />
+    <Library Include="SDL2-2.0.20\lib\x64\SDL2main.lib" />
+    <Library Include="SDL2-2.0.20\lib\x64\SDL2test.lib" />
+  </ItemGroup>
+</Project>
