@@ -45,6 +45,6 @@ It contains zlib library entirely written by Jean-loup Gailly and Mark Adler. Th
 * libwebp-7.dll Copyright (c) 2010, Google Inc. All rights reserved
 * undefined.medium.ttf under SIL Open Font License v1.1 license, copyright (c) 2022, Andi Rueckel https://andirueckel.com,
 with Reserved Font Name undefined.medium.ttf 
-This project is licensed under the [MIT License](https://github.com/MichaelMuzan/Joly/blob/master/LICENSE.txt).
+This project is licensed under the [MIT License](https://github.com/MichaelMuzan/Abacus/blob/master/LICENSE.txt).
 
 
