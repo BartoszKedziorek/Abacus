@@ -38,5 +38,7 @@ The project also uses SDL2-2.0.20, SDL2_image-2.0.5 and SDL2_ttf-2.0.15 librarie
 It contains zlib library entirely written by Jean-loup Gailly and Mark Adler. This software also uses:
 * IJG code copyright (C) 1991-2016, Thomas G. Lane, Guido Vollbeding
 * libwebp-7.dll Copyright (c) 2010, Google Inc. All rights reserved
+* undefined.medium.ttf under SIL Open Font License v1.1 license, copyright (c) 2022, Andi Rueckel https://andirueckel.com,
+with Reserved Font Name undefined.medium.ttf 
 
 
