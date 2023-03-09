@@ -21,24 +21,6 @@ std::string double_do_string(double&& number)
 	return result;
 }
 
-std::string double_to_string_u_can_not_redo(double&& value)
-{std::string result = "";
-
-	int czyn = 0;
-	while (int(value) != 0) { value /= 10; czyn++; }
-	int czyn2 = czyn;
-	while (czyn2 != 0) { value *= 10; result.push_back(char(int(value) % 10) + 48); czyn2--; }
-
-	if (czyn != 0) { result.insert(czyn, "."); }
-
-	if (value < 0)
-	{
-		result.insert(0,"-");
-	}
-	std::cout << result << std::endl;
-	return result;
-}
-
 
 int main(int argc, char* argv[])
 {
@@ -178,7 +160,6 @@ int main(int argc, char* argv[])
 	typingspace->addDrawableComponent<Typing_space>(TX_manager, 300, 145, 50, 0);
 	typingspace->addDrawableComponent<History>(6, 147, TX_manager);
 	
-	std::cout << "NANI???" << std::endl;
 
 	
 	ENT_manager->AddEntity(*equal);
